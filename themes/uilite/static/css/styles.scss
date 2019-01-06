@@ -1,13 +1,10 @@
-*{
-  // outline: 1px solid red;
-}
-
 html{
   overflow-x: hidden;
   overflow-y: scroll; 
 }
+
 body{
-  overflow: hidden;
+  overflow: hidden!important;
 }
 
 a{
