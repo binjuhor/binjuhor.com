@@ -2,8 +2,8 @@
 	"title" : "Services",
 	"services" : [
 		{
-			"icon" : "pencil-ruler",
-			"title" : "Web Application",
+			"icon" : "code",
+			"title" : "Web Development",
 			"description" : "With 7 years of experience and over 6500 customers relying on products sold on the Envato market, I believe that it will bring you the best products."
 		},
 		{
@@ -18,7 +18,7 @@
 		},
 		{
 			"icon": "barcode",
-			"title": "Mobile Application",
+			"title": "Mobile Developments",
 			"description": "With the experience of selling products on the Envato market, my team offers mobile app services."
 		}
 	]
