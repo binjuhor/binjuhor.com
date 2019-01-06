@@ -1,0 +1,5 @@
+baseURL = "https://binjuhor.com/"
+languageCode = "en-us"
+title = "Kiem Hoang's portfolio"
+theme = "uilite"
+message = "Keep in touch, lets me know what do you need my help?"

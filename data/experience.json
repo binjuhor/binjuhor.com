@@ -1,0 +1,25 @@
+{
+	"title" : "Experience",
+	"experience" : [
+		{
+			"timeperiod" : "Jul 2011 - Apr 2012",
+			"company" : "Dai Viet Developing Media .,JSC",
+			"description" : "Develop company's product, work with Joomla, WordPress, and Magento. Work with my own CMS and I become a web developer from there."
+		},
+		{
+			"timeperiod" : "Oct 2012 - Jun 2014",
+			"company" : "Than tai viet trade co.,LTD",
+			"description" : "Research and coding & make a B2B social network, SEO keyword to top 10 google."
+		},
+		{
+			"timeperiod" : "Jun 2014 - Aug 2017",
+			"company" : "Beau Vietnam .,JSC",
+			"description" : "Work as full stack developer, Research and develop company's Core base on WordPress, Laravel, manage server, prepare environment to deploy product."
+		},
+		{
+			"timeperiod" : "Aug 2018 - Present",
+			"company" : "Viet Artisans",
+			"description" : "Working as a fulstack developer, our product with VueJs, Laravel 5.7, and WordPress."
+		}
+	]
+}
