@@ -1,3 +1,5 @@
+{{ $currentPage := . }}
+{{ $sidebar := .Site.Data.sidebar }}
 <nav class="navbar navbar-expand-lg navbar-light bg-white mt-lg-0 mt-3" style="position:relative">
     <a id="menuBar" href="#0" class="bg-white" style="cursor: pointer; position: absolute; height: 22px; width: 30px;">
         <div class="hamburger-menu"></div>
@@ -5,48 +7,43 @@
 
     <div class="secondaryMenu p-3 bg-white">
         <div class="">
-
-            <a href="https://demo.uicard.io/hugo-uilite-portfolio-demo/blog">
-                <h4 class="d-inline-block mr-3 text-dark mb-0">Blog</h4>
+            {{ range .Site.Menus.secondaryMenu }}
+            <a href="{{ .URL }}">
+                <h4 class="d-inline-block mr-3 text-dark mb-0">{{ .Name }}</h4>
             </a>
-
-            <a href="https://demo.uicard.io/hugo-uilite-portfolio-demo/work">
-                <h4 class="d-inline-block mr-3 text-dark mb-0">Work</h4>
-            </a>
-
-            <a href="https://demo.uicard.io/hugo-uilite-portfolio-demo/#contact">
-                <h4 class="d-inline-block mr-3 text-dark mb-0">contact</h4>
-            </a>
-
+            {{ end }}
         </div>
     </div>
 
-    <span class="mr-auto primaryMenu active">
-        <a class="navbar-brand ml-auto" href="https://demo.uicard.io/hugo-uilite-portfolio-demo/">
-            <img style="width:40px" src="https://demo.uicard.io/hugo-uilite-portfolio-demo//images/avatar.jpg" alt=""
-                class="rounded-circle mr-2">
-            <span style="font-size: 20px" class="heading">Martin Luther</span>
-        </a>
-    </span>
+    {{ range .Site.Menus.primaryMenu }}
+        <span class='mr-auto {{ if or ($currentPage.IsMenuCurrent "primaryMenu" .) ( $currentPage.HasMenuCurrent "primaryMenu" .) }} active {{ end }}'>
+            <a class="navbar-brand ml-auto" href="{{ .URL }}">
+                <img style="width:40px" src="{{ .Site.BaseURL}}images/{{ $sidebar.displayPicture }}"
+                    alt="{{ .Site.title }}"
+                    class="rounded-circle mr-2">
+                <span style="font-size: 20px" class="heading">{{ $sidebar.highlightedText }}</span>
+            </a>
+        </span>
+    {{ end }}
+
     <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
 
         </ul>
 
-
-        <a target="_blank" class="nav-link text-dark" href="">
+        <a target="_blank" class="nav-link text-dark" href="#">
             <i class="fab fa-dribbble"></i>
         </a>
 
-        <a target="_blank" class="nav-link text-dark" href="">
+        <a target="_blank" class="nav-link text-dark" href="#">
             <i class="fab fa-github-alt"></i>
         </a>
 
-        <a target="_blank" class="nav-link text-dark" href="https://instagram.com/uicardio">
+        <a target="_blank" class="nav-link text-dark" href="#">
             <i class="fab fa-instagram"></i>
         </a>
 
-        <a target="_blank" class="nav-link text-dark" href="https://twitter.com/uicardio">
+        <a target="_blank" class="nav-link text-dark" href="#">
             <i class="fab fa-twitter"></i>
         </a>
 

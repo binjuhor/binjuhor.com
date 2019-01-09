@@ -2,4 +2,23 @@ baseURL = "https://binjuhor.com/"
 languageCode = "en-us"
 title = "Kiem Hoang's portfolio"
 theme = "uilite"
-message = "Keep in touch, lets me know what do you need my help?"
+
+[[menu.primaryMenu]]
+    name = "Kiem Hoang" 
+    weight = 10 
+    url = "/"
+
+[[menu.secondaryMenu]]
+    name = "Blogs"
+    weight = 20
+    url = "/blog/"
+
+[[menu.secondaryMenu]]
+    name = "Work"
+    weight = 30
+    url = "/work/"
+
+[[menu.secondaryMenu]]
+    name = "Contact"
+    weight = 40
+    url = "/#contact"

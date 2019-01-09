@@ -1,0 +1,31 @@
+{{ partial "header.html" . }}
+{{ partial "nav.html" . }}
+
+<div class="container mt-4">
+    <h1 class="text-center heading">{{ .Title }}</h1>
+    <small class="text-center d-block text-muted">Posted on {{.Date.Format "Mon, Jan 2, 2006"}}</small>
+</div>
+
+<img src="https://demo.uicard.io/hugo-uilite-portfolio-demo//images/blog/image2.jpg" 
+    class="mx-auto d-block my-4"
+    style="max-width:100%;width:800px"
+    alt="{{ .Title }}"
+>
+
+<article style="max-width:890px" class="container w-100 my-5">
+    {{ .Content }}
+    <div class="text-center my-5">
+        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ .URL }}"
+            class="h5 mr-4">
+            <i class="socicon-facebook"></i> Share
+        </a>
+        <a target="_blank" href="https://twitter.com/home?status={{ .URL }}"
+            class="h5">
+            <i class="socicon-twitter"></i> Tweet
+        </a>
+    </div>
+
+    {{/*  {{ partial "disqus.html" . }}  */}}
+
+</article>
+{{ partial "footer-scripts.html" . }}

@@ -1,6 +1,6 @@
-{{ $config := .Site.Data.config }}
 <!DOCTYPE html>
 <html lang="en-US">
+{{ $config := .Site.Data.config }}
 <head>
 	<title>
 			{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
