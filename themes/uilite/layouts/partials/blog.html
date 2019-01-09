@@ -13,7 +13,7 @@
                             style="
                                 background-size:cover;
                                 background-position:center;
-                                background-image: url('/blog/images/{{ .Params.featured_image }}');
+                                background-image: url('{{.Site.BaseURL}}blog/images/{{ .Params.featured_image }}');
                                 height: 200px;
                                 background-color:#fbfbfb;"
                         >
@@ -37,8 +37,8 @@
         {{ end }}
         
         <div class="col-lg-2 col-12 align-items-end d-flex align-items-center">
-            <a href="/blog" class="btn btn-dark-faded rounded-circle p-4 text-center">
-                <img width="40px" src="https://demo.uicard.io/hugo-uilite-portfolio-demo//images/next.svg" alt="">
+            <a href="{{.Site.BaseURL}}blog" class="btn btn-dark-faded rounded-circle p-4 text-center">
+                <img width="40px" src="{{.Site.BaseURL}}images/next.svg" alt="">
             </a>
         </div>
     </div>

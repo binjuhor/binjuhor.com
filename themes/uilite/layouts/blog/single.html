@@ -6,14 +6,19 @@
     <small class="text-center d-block text-muted">Posted on {{.Date.Format "Mon, Jan 2, 2006"}}</small>
 </div>
 
-<img src="https://demo.uicard.io/hugo-uilite-portfolio-demo//images/blog/image2.jpg" 
+<img src="{{.Site.BaseURL}}blog/images/{{ .Params.featured_image }}" 
     class="mx-auto d-block my-4"
-    style="max-width:100%;width:800px"
+    style="max-width:100%;"
     alt="{{ .Title }}"
 >
 
 <article style="max-width:890px" class="container w-100 my-5">
-    {{ .Content }}
+    <div class="row alignt">
+        <div class="col-md-10 mx-auto text-justify">
+            {{ .Content }}
+        </div>
+    </div>
+    
     <div class="text-center my-5">
         <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ .URL }}"
             class="h5 mr-4">
@@ -29,3 +34,4 @@
 
 </article>
 {{ partial "footer-scripts.html" . }}
+{{ partial "footer.html" . }}

@@ -1,0 +1,38 @@
+{{ partial "header.html" . }}
+{{ partial "nav.html" . }}
+
+<div class="mt-4">
+    <div class="row no-gutters position-relative">
+        <div class="col-md-6">
+            
+            <div class="position-sticky sticky-top">
+                <img src="{{.Site.BaseURL}}work/images/{{ .Params.featured_image }}" class="mx-auto d-block"
+                style="max-width:100%;width:800px" alt="{{ .Title }}">
+            </div>
+            
+        </div>
+        <div class="col-md-6 px-4 mt-4 mt-sm-0 pr-5">
+            <h1 class="">{{ .Title }}</h1>
+            <article class="text-justify pr-5">
+                {{ .Content }}
+            </article>
+            <div class="text-center my-5">
+                <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
+                    class="h5 mr-4">
+                    <i class="socicon-facebook"></i> Share
+                </a>
+                <a target="_blank" href="https://twitter.com/home?status={{ .Permalink }}"
+                    class="h5">
+                    <i class="socicon-twitter"></i> Tweet
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="text-center my-5">
+    <a class="text-dark" href="{{.Site.BaseURL}}work">↽ Back</a>
+</div>
+
+{{ partial "footer-scripts.html" . }}
+{{ partial "footer.html" . }}

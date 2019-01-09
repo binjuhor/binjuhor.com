@@ -1,6 +1,6 @@
 baseURL = "https://binjuhor.com/"
 languageCode = "en-us"
-title = "Kiem Hoang's portfolio"
+title = "Kiem Hoang Personal Portfolio"
 theme = "uilite"
 
 [[menu.primaryMenu]]

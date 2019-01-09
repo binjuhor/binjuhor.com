@@ -1,0 +1,43 @@
+{{ partial "header.html" . }}
+{{ partial "nav.html" . }}
+
+<section class="pt-5">
+    <div class="container">
+        <h1 class="text-center py-4">Work</h1>
+
+        <div class="row">
+
+            {{ range first 3 (where .Pages "Section" "work") }}
+            <div class="col-md-4 mb-3">
+                 <div class="card">
+                    <a class="mb-3" href="{{ .Permalink }}">
+                        <div 
+                            class="featuredImage rounded" 
+                            style="background-size:cover;
+                            background-position:center;
+                            background-image: url('{{.Site.BaseURL}}work/images/{{ .Params.featured_image }}'); 
+                            height: 180px;
+                            background-color:#fbfbfb;"
+                        >
+                        </div>
+                    </a>
+
+                    <a href="{{ .Permalink }}">
+                        <h3 class="h4 font-weight-bold text-dark">{{ .Title }}</h3>
+                    </a>
+
+                    <div>
+                        <div class="float-right">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+
+        </div>
+    </div>
+</section>
+
+{{ partial "footer-scripts.html" . }}
+{{ partial "footer.html" . }}
