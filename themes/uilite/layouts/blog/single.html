@@ -2,8 +2,8 @@
 {{ partial "nav.html" . }}
 
 <div class="container mt-4">
-    <h1 class="text-center heading">{{ .Title }}</h1>
-    <small class="text-center d-block text-muted">Posted on {{.Date.Format "Mon, Jan 2, 2006"}}</small>
+    <h1 class="text-center heading text-capitalize">{{ .Title }}</h1>
+    <small class="text-center d-block text-muted">{{.Date.Format "Jan 2 — 2006"}}</small>
 </div>
 
 <img src="{{.Site.BaseURL}}blog/images/{{ .Params.featured_image }}" 
@@ -21,11 +21,11 @@
     
     <div class="text-center my-5">
         <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ .URL }}"
-            class="h5 mr-4">
+            class="h6 mr-4">
             <i class="socicon-facebook"></i> Share
         </a>
         <a target="_blank" href="https://twitter.com/home?status={{ .URL }}"
-            class="h5">
+            class="h6">
             <i class="socicon-twitter"></i> Tweet
         </a>
     </div>
