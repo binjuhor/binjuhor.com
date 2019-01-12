@@ -16,8 +16,8 @@
 
 let menuBtn = $("#menuBar");
 
-menuBtn.click(function () {
-
+menuBtn.click( function ( e ) {
+  e.preventDefault();
   $('.hamburger-menu').toggleClass('animate');
 
   if ($(".secondaryMenu").hasClass("active")) {
@@ -37,19 +37,21 @@ menuBtn.click(function () {
   }
 });
 
-$(document).ready(function () {
-  var elements = $(".sidebar > .main-info *");
+( function($){
+  'use strict';
+  
+  $(document).ready(function () {
+    var elements = $(".sidebar > .main-info *");
 
-  console.log(elements);
+    for (let i = 0; i < elements.length; i++) {
+      setTimeout(function () {
+        $(elements[i].tagName).addClass("bs");
+      }, (400 * i) - 90 * i);
+    }
 
-  for (let i = 0; i < elements.length; i++) {
     setTimeout(function () {
-      $(elements[i].tagName).addClass("bs");
-    }, (400 * i) - 90 * i);
-  }
+      $(".main-content").addClass("active");
+    }, 1900);
 
-  setTimeout(function () {
-    $(".main-content").addClass("active");
-  }, 1900);
-
-});
+  });
+})( jQuery )
