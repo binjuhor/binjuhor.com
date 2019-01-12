@@ -2,23 +2,23 @@ baseURL = "https://binjuhor.com/"
 languageCode = "en-us"
 title = "Kiem Hoang Personal Portfolio"
 theme = "uilite"
-
-[[menu.primaryMenu]]
+   
+[[menu.primary]]
     name = "Kiem Hoang" 
     weight = 10 
     url = "/"
 
-[[menu.secondaryMenu]]
+[[menu.secondary]]
     name = "Blogs"
     weight = 20
     url = "/blog/"
 
-[[menu.secondaryMenu]]
+[[menu.secondary]]
     name = "Work"
     weight = 30
     url = "/work/"
 
-[[menu.secondaryMenu]]
+[[menu.secondary]]
     name = "Contact"
     weight = 40
     url = "/#contact"

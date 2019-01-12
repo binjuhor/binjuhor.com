@@ -7,7 +7,7 @@
 
     <div class="secondaryMenu p-3 bg-white">
         <div class="">
-            {{ range .Site.Menus.secondaryMenu }}
+            {{ range .Site.Menus.secondary }}
             <a href="{{ .URL }}">
                 <h4 class="d-inline-block mr-3 text-dark mb-0">{{ .Name }}</h4>
             </a>
@@ -15,11 +15,11 @@
         </div>
     </div>
 
-    {{ range .Site.Menus.primaryMenu }}
-        <span class='mr-auto {{ if or ($currentPage.IsMenuCurrent "primaryMenu" .) ( $currentPage.HasMenuCurrent "primaryMenu" .) }} active {{ end }}'>
+    {{ range .Site.Menus.primary }}
+        <span class='mr-auto primaryMenu active'>
             <a class="navbar-brand ml-auto" href="{{ .URL }}">
-                <img style="width:40px" src="{{ .Site.BaseURL}}images/{{ $sidebar.displayPicture }}"
-                    alt="{{ .Site.title }}"
+                <img style="width:40px" src="/images/{{ $sidebar.displayPicture }}"
+                    alt="{{ $sidebar.highlightedText }}"
                     class="rounded-circle mr-2">
                 <span style="font-size: 20px" class="heading">{{ $sidebar.highlightedText }}</span>
             </a>

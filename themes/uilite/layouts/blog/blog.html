@@ -5,7 +5,7 @@
 
         {{ .Content }}
 
-        {{ range where .Pages "Section" "blog" }}
+        {{ range where ( .Paginator ).Pages "Section" "blog" }}
 
         <article class="mb-5">
             <div class="row">
@@ -21,7 +21,7 @@
 
                 </div>
                 <div class="col-lg-8 col-md-7">
-                    <small class="text-muted">{{.Date.Format "Mon, Jan 2, 2006"}}</small>
+                    <small class="text-muted">{{.Date.Format "Jan 2 — 2006"}}</small>
                     <h2 class="heading mb-0">
                         <a class="text-dark" href="{{ .Permalink }}">{{ .Title }}</a>
                     </h2>
@@ -46,7 +46,12 @@
             </div>
         </article>
         {{ end }}
-        {{ template "_internal/pagination.html" . }}
+
+        <div class="row">
+            <div class="col text-center">
+                {{ template "_internal/pagination.html" . }}
+            </div>
+        </div>
     </div>
 </section>
 

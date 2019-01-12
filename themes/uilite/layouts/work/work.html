@@ -7,7 +7,7 @@
 
         <div class="row">
 
-            {{ range first 3 (where .Pages "Section" "work") }}
+            {{ range where ( .Paginator ).Pages "Section" "work" }}
             <div class="col-md-4 mb-3">
                  <div class="card">
                     <a class="mb-3" href="{{ .Permalink }}">
@@ -35,6 +35,11 @@
             </div>
             {{ end }}
 
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                {{ template "_internal/pagination.html" . }}
+            </div>
         </div>
     </div>
 </section>

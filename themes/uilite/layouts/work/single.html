@@ -12,7 +12,7 @@
                     /<div class="pr-3 d-inline text-capitalize"> {{ . }} </div>
                 {{ end }}
             </div>
-            <div class="position-sticky sticky-top">
+            <div class="">
                 <img src="{{.Site.BaseURL}}work/images/{{ .Params.featured_image }}" 
                     class="mx-auto d-block"
                     style="width:100%;" 
@@ -22,20 +22,20 @@
             
         </div>
         <div class="col-md-4 px-5 pt-5">
-            
-            <article class="text-justify mt-5 pt-5 position-sticky">
+            <article class="text-justify mt-5 pt-5 sticky-top">
                 {{ .Content }}
+                <div class="text-center my-5">
+                    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
+                        class="h6 mr-4">
+                        <i class="socicon-facebook"></i> Share
+                    </a>
+                    <a target="_blank" href="https://twitter.com/home?status={{ .Permalink }}"
+                        class="h6">
+                        <i class="socicon-twitter"></i> Tweet
+                    </a>
+                </div>
             </article>
-            <div class="text-center my-5">
-                <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
-                    class="h6 mr-4">
-                    <i class="socicon-facebook"></i> Share
-                </a>
-                <a target="_blank" href="https://twitter.com/home?status={{ .Permalink }}"
-                    class="h6">
-                    <i class="socicon-twitter"></i> Tweet
-                </a>
-            </div>
+            
         </div>
     </div>
 </div>
