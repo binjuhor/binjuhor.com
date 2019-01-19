@@ -10,14 +10,16 @@
         <article class="mb-5">
             <div class="row">
                 <div class="col-lg-4 col-md-5">
-                    <div class="featuredImage rounded"
-                        style="
-                        background-size:cover;
-                        background-position:center;
-                        background-image: url('{{.Site.BaseURL}}blog/images/{{ .Params.featured_image }}');
-                        height: 200px;
-                        background-color:#fbfbfb;">
-                    </div>
+                    <a href="{{ .Permalink }}">
+                        <div class="featuredImage rounded"
+                            style="
+                            background-size:cover;
+                            background-position:center;
+                            background-image: url('{{.Site.BaseURL}}blog/images/{{ .Params.featured_image }}');
+                            height: 200px;
+                            background-color:#fbfbfb;">
+                        </div>
+                    </a>
 
                 </div>
                 <div class="col-lg-8 col-md-7">
