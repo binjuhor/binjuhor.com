@@ -1,48 +1,70 @@
 {{ partial "header.html" . }}
 {{ partial "nav.html" . }}
-
+{{ $baseurl := .Site.BaseURL }}
 <div class="mt-5">
-    <div class="row no-gutters position-relative">
+    <div class="row no-gutters">
         <div class="col-md-8">
-
             <sub class="post-time pl-3 pb-3">{{.Date.Format "Jan — 2006"}}</sub>
             <h1 class="pl-3 text-capitalize">{{ .Title }}</h1>
             <div class="pb-3 pl-3">
                 {{ range .Params.tags }}
-                    /<div class="pr-3 d-inline text-capitalize"> {{ . }} </div>
+                /<div class="pr-3 d-inline text-capitalize"> {{ . }} </div>
                 {{ end }}
             </div>
-            <div class="">
-                <img src="{{.Site.BaseURL}}work/images/{{ .Params.featured_image }}" 
-                    class="mx-auto d-block"
+        </div>
+    </div>
+    <div class="row no-gutters bg-socola">
+        
+        <div class="col-md-8">
+            <div class="project-images">
+                {{ if isset .Params "project_image" }}
+                    {{ range index .Params "project_image" }}
+                        <img src="{{ $baseurl }}work/images/{{ . }}" 
+                        class="mx-auto d-block" 
+                        style="width:100%;" 
+                        alt="{{ . }}"
+                        >
+                    {{ end }}
+                {{ else }}
+                    <img src="{{ $baseurl }}work/images/{{ .Params.featured_image }}" 
+                    class="mx-auto d-block" 
                     style="width:100%;" 
                     alt="{{ .Title }}"
-                >
+                    >
+                {{ end }}
             </div>
             
         </div>
-        <div class="col-md-4 px-5 pt-5">
-            <article class="text-justify mt-5 pt-5 sticky-top">
-                {{ .Content }}
-                <div class="text-center my-5">
-                    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
-                        class="h6 mr-4">
-                        <i class="socicon-facebook"></i> Share
-                    </a>
-                    <a target="_blank" href="https://twitter.com/home?status={{ .Permalink }}"
-                        class="h6">
-                        <i class="socicon-twitter"></i> Tweet
-                    </a>
+        <div class="col-md-4">
+            <article class="sticky-top">
+                <div class="px-5 pt-md-3 bg-white ">
+
+                    <div class="row mt-5">
+                        <div class="col-7 mb-4">
+                            <a class="text-dark back-action text-uppercase" href="{{ $baseurl }}work">Back to Work</a>
+                        </div>
+        
+                        <div class="col-5 text-right">
+                            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" class="share-link h6 mr-1">
+                                <i class="socicon-facebook"></i>
+                            </a>
+                            <a target="_blank" href="https://twitter.com/home?status={{ .Permalink }}" class="share-link h6">
+                                <i class="socicon-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="content px-5 pt-5 text-white">
+                    {{ .Content }}
+                </div>
+                
             </article>
             
         </div>
     </div>
 </div>
 
-<div class="text-center my-5">
-    <a class="text-dark" href="{{.Site.BaseURL}}work">↽ Back</a>
-</div>
 
 {{ partial "footer-scripts.html" . }}
 {{ partial "footer.html" . }}
