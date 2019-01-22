@@ -1,7 +1,7 @@
 ---
 title: "EDM – Party Event"
 date: 2019-01-19T21:05:39+07:00
-draft: true
+draft: false
 featured_image: "edm-party.jpg"
 project_image: ["EDM-party-full.jpg"]
 tags: ["Edm","Party", "Event", "Music"]

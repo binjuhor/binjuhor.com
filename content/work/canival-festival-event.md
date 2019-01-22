@@ -1,7 +1,7 @@
 ---
 title: "Carnival – Festival Event"
 date: 2019-01-19T21:05:39+07:00
-draft: true
+draft: false
 featured_image: "canival-thumbnail.png"
 project_image: ["HomeCarnival.jpg"]
 tags: ["Booking","Canival", "Concert"]

@@ -1,7 +1,7 @@
 ---
 title: "Camping Landing Page"
 date: 2019-01-09T05:48:21+07:00
-draft: true
+draft: false
 featured_image: "camp-thumb.png"
 project_image: ["camping-full.jpg"]
 tags: ["camping","landing page", "travel", "event"]

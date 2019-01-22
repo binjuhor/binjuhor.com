@@ -1,7 +1,7 @@
 ---
 title: "How to Learn a New Language Fast"
 date: 2019-01-09T05:48:21+07:00
-draft: true
+draft: false
 featured_image: "image2.jpg"
 tags: ["blog","language","learn fast"]
 description: "Want to find out how you can learn a new language quickly, without the need for expensive classes or language learning software? There are really no secrets or shortcuts -- you just need to commit to your new language, be willing to work hard and not be afraid to make mistakes. Start with Step 1 below to find out more."
