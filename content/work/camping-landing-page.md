@@ -5,7 +5,6 @@ draft: true
 featured_image: "camp-thumb.png"
 project_image: ["camping-full.jpg"]
 tags: ["camping","landing page", "travel", "event"]
-categories: []
 description: "Camping as a recreational activity became popular among elites in the early 20th century."
 ---
 

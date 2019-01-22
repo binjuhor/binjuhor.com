@@ -5,7 +5,6 @@ draft: true
 featured_image: "edm-party.jpg"
 project_image: ["EDM-party-full.jpg"]
 tags: ["Edm","Party", "Event", "Music"]
-categories: []
 description: "Listen up, music fanatics, if you think you have seen EDM everything, think again!"
 ---
 

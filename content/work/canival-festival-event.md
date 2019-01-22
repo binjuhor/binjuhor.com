@@ -5,7 +5,6 @@ draft: true
 featured_image: "canival-thumbnail.png"
 project_image: ["HomeCarnival.jpg"]
 tags: ["Booking","Canival", "Concert"]
-categories: []
 description: "“Carnival” is a festival of colors, which attracts millions of people from around the global."
 ---
 
