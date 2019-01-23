@@ -1,5 +1,5 @@
 ---
-title: "Getaco Crm Digital Solution"
+title: "Getaco CRM Digital Solution"
 date: 2018-07-11T03:11:43+07:00
 draft: false
 featured_image: "getaco-thumb.png"
