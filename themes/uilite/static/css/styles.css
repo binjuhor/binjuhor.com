@@ -327,7 +327,8 @@ section {
   line-height: 28px;
   border-radius: 50%;
   opacity: .5;
-  transition: all .3s; }
+  transition: all .3s;
+  color: #000; }
   .share-link i {
     font-size: 12px; }
   .share-link:hover {

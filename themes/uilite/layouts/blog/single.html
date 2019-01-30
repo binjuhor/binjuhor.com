@@ -24,13 +24,13 @@
     </div>
     
     <div class="text-center my-5">
-        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{.Site.BaseURL}}{{.Permalink}}"
+        <a target="_blank" class="share-link mr-1" href="https://www.facebook.com/sharer/sharer.php?u={{.Permalink}}"
             class="h6 mr-4">
-            <i class="socicon-facebook"></i> Share
+            <i class="socicon-facebook"></i> 
         </a>
-        <a target="_blank" href="https://twitter.com/home?status={{.Site.BaseURL}}{{.Permalink}}"
+        <a target="_blank" class="share-link" href="https://twitter.com/home?status={{.Permalink}}"
             class="h6">
-            <i class="socicon-twitter"></i> Tweet
+            <i class="socicon-twitter"></i>
         </a>
     </div>
     {{ partial "disqus.html" . }}
