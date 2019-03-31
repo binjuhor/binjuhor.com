@@ -336,5 +336,7 @@ section {
 
 .bg-socola {
   background: #2b252a; }
+  .bg-socola .sidebarshare {
+    white-space: nowrap; }
 
 /*# sourceMappingURL=styles.css.map */
