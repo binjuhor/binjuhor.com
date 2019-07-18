@@ -14,12 +14,12 @@
 		{
 			"timeperiod" : "Jun 2014 - Aug 2018",
 			"company" : "Beau Vietnam .,JSC",
-			"description" : "Working as a website developer, research, training and develop company's core base on WordPress, Laravel, server manager, environment preparing for website product."
+			"description" : "Working as a web developer, research, training and develop company's core base on WordPress, Laravel, server manager, environment preparing for website product."
 		},
 		{
 			"timeperiod" : "Aug 2018 - Present",
-			"company" : "Viet Artisans.,JSC",
-			"description" : "Working as a fulstack developer, working with VueJs, Laravel 5.7, and WordPress."
+			"company" : "Viet Artisans .,JSC",
+			"description" : "Working as a web developer, working with VueJs, Laravel 5.x, and WordPress."
 		}
 	]
 }
