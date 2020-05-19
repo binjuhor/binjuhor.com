@@ -8,4 +8,6 @@ tags: [ "Landing Page", "PVcomBank", "Laravel 4.x" ]
 description: "As a state-owned bank, PVcomBank is taking a breakthrough step. to bring more convenience to customers."
 ---
 
-As a state-owned bank, PVcomBank is taking a breakthrough step. to bring more convenience to customers. Beau has consulted and implemented this official portal. Update responsive technology to optimize for devices. Friendly, delicate interface.
+This website is a landing page focus on showcase what main website ( pvcombank.com.vn ) improvement, showcase and have a minigame for their customer.
+
+Based on Laravel 4 and Bootstrap 3, jQuery.

@@ -7,7 +7,7 @@
 	{{ if .Site.Data.services }}{{ partial "services.html" . }}{{ end }}
 </div>
 
-<div style="z-index: 4; position: relative;">
+<div style="z-index: 4; position: relative; display: none;">
 	{{ if gt (len (where .Data.Pages "Type" "blog")) 0 }}{{ partial "blog.html" . }}{{ end }}
 	{{ if gt (len (where .Data.Pages "Type" "work")) 0 }}{{ partial "work.html" . }}{{ end }}
 </div>

@@ -6,10 +6,12 @@
 		"Laravel" : "80",
 		"Git" : "85",
 		"HTML/ CSS/ JS" : "90",
-		"VueJs" : "70",
+		"VueJs" : "50",
+		"React JS" : "60",
+		"React Native" : "40",
 		"jQuery" : "80",
 		"Photoshop/ Sketch App" : "75",
-		"Linux" : "50",
+		"Linux" : "55",
 		"Manager" : "70"
 	}
 }

@@ -9,8 +9,15 @@
       
       <div class="timeline-content {{ if eq (mod $index 2) 0 }} right {{ end }}">
         <span class="date">{{ $element.timeperiod }}</span>
+
+        {{ if $element.link }}
+        <a target="_blank" href="{{ $element.link }}" class="clearfix">
+          <i class="fas fa-link bs"></i>
+          {{ $element.link }}
+        </a>
+        {{ end }}
         <h6 class="h3 my-2">{{ $element.company }}</h6>
-        <p class="">{{ $element.description }}</p>
+        <p class="bs">{{ $element.description }}</p>
       </div>
     </div>
     {{ end }}

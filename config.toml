@@ -9,11 +9,6 @@ theme = "uilite"
     url = "/"
 
 [[menu.secondary]]
-    name = "Blogs"
-    weight = 20
-    url = "/blog/"
-
-[[menu.secondary]]
     name = "Work"
     weight = 30
     url = "/work/"
