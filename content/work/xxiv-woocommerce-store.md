@@ -1,7 +1,7 @@
 ---
-title: "Vacuum Technology, Coating & Hardware"
-date: 2020-04-01T02:53:16+07:00
-draft: true
+title: "XXIV STORE a WooCommerce Website"
+date: 2020-04-10T02:53:16+07:00
+draft: false
 featured_image: "pvcombank-landing-page-thumb.jpg"
 project_image: [ "pvcombank-landing-page-full.jpeg" ]
 tags: [ "WooCommerce", "WordPress", "WordPress website" ]

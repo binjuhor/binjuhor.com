@@ -1,7 +1,7 @@
 ---
-title: "Vacuum Technology, Coating & Hardware"
+title: "Woodland Blocks WordPress website"
 date: 2019-07-10T02:53:16+07:00
-draft: true
+draft: false
 featured_image: "pvcombank-landing-page-thumb.jpg"
 project_image: [ "pvcombank-landing-page-full.jpeg" ]
 tags: [ "WordPress", "React", "WordPress plugin" ]

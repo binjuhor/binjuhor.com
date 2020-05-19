@@ -1,7 +1,7 @@
 ---
-title: "Vacuum Technology, Coating & Hardware"
+title: "Thinh Van logistic website"
 date: 2020-03-10T02:53:16+07:00
-draft: true
+draft: false
 featured_image: "pvcombank-landing-page-thumb.jpg"
 project_image: [ "pvcombank-landing-page-full.jpeg" ]
 tags: [ "WordPress", "Website WordPress", "Gutenberg" ]

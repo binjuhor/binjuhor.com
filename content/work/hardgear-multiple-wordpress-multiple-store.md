@@ -1,11 +1,11 @@
 ---
-title: "Vacuum Technology, Coating & Hardware"
+title: "Hardgear multiple WordPress store"
 date: 2020-04-01T02:53:16+07:00
-draft: true
+draft: false
 featured_image: "pvcombank-landing-page-thumb.jpg"
 project_image: [ "pvcombank-landing-page-full.jpeg" ]
 tags: [ "WordPress", "WooCommerce", "WordPress multiple store" ]
 description: "As a state-owned bank, PVcomBank is taking a breakthrough step. to bring more convenience to customers."
 ---
 
-As a state-owned bank, PVcomBank is taking a breakthrough step. to bring more convenience to customers. Beau has consulted and implemented this official portal. Update responsive technology to optimize for devices. Friendly, delicate interface.
+This website based on WordPress multiple site, focused on uniform store for schools
