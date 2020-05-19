@@ -4,25 +4,24 @@
     <div class="row">
 
         {{ .Content }}
-        {{ range first 3 (where .Pages "Section" "work") }}
-
+        
         <div class="col-md-4 mb-3">
             <div class="card p-4">
-                <a class="mb-3" href="{{ .Permalink }}">
+                <a class="mb-3" href="{{.Site.BaseURL}}work/pvcombank-official-website/">
                     <div 
                         class="featuredImage rounded" 
                         style="
                         background-size:cover;
                         background-position:center;
-                        background-image: url('{{.Site.BaseURL}}work/images/{{ .Params.featured_image }}'); 
+                        background-image: url('{{.Site.BaseURL}}work/images/ib-maritimebank-thumb.jpg'); 
                         height: 180px;
                         background-color:#fbfbfb;"
                     >
                     </div>
                 </a>
 
-                <a href="{{ .Permalink }}">
-                    <h3 class="h4 font-weight-bold text-dark">{{ .Title }}</h3>
+                <a href="{{.Site.BaseURL}}work/pvcombank-official-website/">
+                    <h3 class="h4 font-weight-bold text-dark">Pvcombank Official Website</h3>
                 </a>
 
                 <div>
@@ -31,8 +30,58 @@
                 </div>
             </div>
         </div>
-        {{ end }}
 
+        <div class="col-md-4 mb-3">
+            <div class="card p-4">
+                <a class="mb-3" href="{{.Site.BaseURL}}work/vnpayment-vietnam-website/">
+                    <div 
+                        class="featuredImage rounded" 
+                        style="
+                        background-size:cover;
+                        background-position:center;
+                        background-image: url('{{.Site.BaseURL}}work/images/vnpayment-thumb.jpg'); 
+                        height: 180px;
+                        background-color:#fbfbfb;"
+                    >
+                    </div>
+                </a>
+
+                <a href="{{.Site.BaseURL}}work/vnpayment-vietnam-website/">
+                    <h3 class="h4 font-weight-bold text-dark">Vnpayment Vietnam Website</h3>
+                </a>
+
+                <div>
+                    <div class="float-right">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card p-4">
+                <a class="mb-3" href="{{.Site.BaseURL}}work/kitchen-art-professional-cooking-website/">
+                    <div 
+                        class="featuredImage rounded" 
+                        style="
+                        background-size:cover;
+                        background-position:center;
+                        background-image: url('{{.Site.BaseURL}}work/images/kitchenart-thumb.png'); 
+                        height: 180px;
+                        background-color:#fbfbfb;"
+                    >
+                    </div>
+                </a>
+
+                <a href="{{.Site.BaseURL}}work/kitchen-art-professional-cooking-website/">
+                    <h3 class="h4 font-weight-bold text-dark">Kitchen Art Professional Cooking Website</h3>
+                </a>
+
+                <div>
+                    <div class="float-right">
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 

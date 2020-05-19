@@ -1,7 +1,7 @@
 ---
 title: "Bebo Book Landing Page"
 date: 2019-08-20T02:08:05+07:00
-draft: false
+draft: true
 featured_image: "bebo-landing-thumb.jpg"
 project_image: [ "bebo-landing-full.jpeg" ]
 tags: [ "WordPress", "MemberPress"]
