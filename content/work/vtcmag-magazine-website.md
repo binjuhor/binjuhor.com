@@ -5,7 +5,9 @@ draft: false
 featured_image: "vtc-thumb.jpg"
 project_image: [ "vtc-megamenu.png", "vtc-full.jpg" ]
 tags: [ "SCSS", "HTML", "Bootstrap", "jQuery" ]
-description: "As a state-owned bank, PVcomBank is taking a breakthrough step. to bring more convenience to customers."
+description: "This project is an affiliate blog focus on advertising, focus on display ads on mobile-first. We developed the HTML for this website.
+HTML5, CSS, Mega Menu, Optimize HTML and CSS are key feature for this project."
 ---
 
-As a state-owned bank, PVcomBank is taking a breakthrough step. to bring more convenience to customers. Beau has consulted and implemented this official portal. Update responsive technology to optimize for devices. Friendly, delicate interface.
+This project is an affiliate blog focus on advertising, focus on display ads on mobile-first. We developed the HTML for this website.
+HTML5, CSS, Mega Menu, Optimize HTML and CSS are key feature for this project.

@@ -5,7 +5,7 @@ draft: false
 featured_image: "thinh-van-thumb.jpg"
 project_image: [ "thinh-van-full.jpg" ]
 tags: [ "WordPress", "Website WordPress", "Gutenberg" ]
-description: "As a state-owned bank, PVcomBank is taking a breakthrough step. to bring more convenience to customers."
+description: "This website is developed based on the WordPress platform. Its focuses to show the logistic service, support their customer with best practice to order and drop shipping from China and Vietnam."
 ---
 
-As a state-owned bank, PVcomBank is taking a breakthrough step. to bring more convenience to customers. Beau has consulted and implemented this official portal. Update responsive technology to optimize for devices. Friendly, delicate interface.
+This website is developed based on the WordPress platform. Its focuses to show the logistic service, support their customer with best practice to order and drop shipping from China and Vietnam.

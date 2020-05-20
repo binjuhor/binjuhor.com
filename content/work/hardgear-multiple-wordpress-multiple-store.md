@@ -5,7 +5,9 @@ draft: false
 featured_image: "hardgear-thumb.jpg"
 project_image: [ "hardgear-1.jpg", "hardgear-2.jpg", "hardgear-3.png" ]
 tags: [ "WordPress", "WooCommerce", "WordPress multiple store" ]
-description: "As a state-owned bank, PVcomBank is taking a breakthrough step. to bring more convenience to customers."
+description: "This website based on WordPress multiple sites focused on the uniform store for schools, sports team."
 ---
 
-This website based on WordPress multiple site, focused on uniform store for schools
+This website based on WordPress multiple sites focused on the uniform store for schools, sports team.
+
+Work with smart AJAX filter by a category, and size of T-Shirt, discount if buy multiple products, quick shopping and easy setup new store in Hardgear network.
