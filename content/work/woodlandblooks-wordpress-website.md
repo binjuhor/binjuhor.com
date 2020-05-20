@@ -5,7 +5,9 @@ draft: false
 featured_image: "woodland-thumb.jpg"
 project_image: [ "woodland-1.jpg", "woodland-2.png" ]
 tags: [ "WordPress", "React", "WordPress plugin" ]
-description: "As a state-owned bank, PVcomBank is taking a breakthrough step. to bring more convenience to customers."
+description: "Developed based on the WordPress platform. It is one of Photomart website, focussed on download the frame image, quick upload image and orders the picture frame."
 ---
 
-As a state-owned bank, PVcomBank is taking a breakthrough step. to bring more convenience to customers. Beau has consulted and implemented this official portal. Update responsive technology to optimize for devices. Friendly, delicate interface.
+Developed based on the WordPress platform. It is one of Photomart website, focussed on download the frame image, quick upload image and orders the picture frame.
+
+Quick upload image with React app & integrated with WooCommerce detail product, Contact form & download PDF files are this website's features.

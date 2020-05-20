@@ -4,8 +4,10 @@ date: 2017-06-10T02:53:16+07:00
 draft: false
 featured_image: "revolution-2.jpg"
 project_image: [ "revolution-1.jpg", "revolution-2.jpg", "revolution-3.jpg", "revolution-4.png" ]
-tags: [ "WordPress", "Website WordPress", "Visual Composer" ]
-description: "As a state-owned bank, PVcomBank is taking a breakthrough step. to bring more convenience to customers."
+tags: [ "WordPress", "Website WordPress", "Visual Composer", "Support" ]
+description: "This website is developed based on the WordPress platform. It is official of Revolution Models from Milano Italia, focussed on model showcase, quick booking model and become a model."
 ---
 
-As a state-owned bank, PVcomBank is taking a breakthrough step. to bring more convenience to customers. Beau has consulted and implemented this official portal. Update responsive technology to optimize for devices. Friendly, delicate interface.
+This website is developed based on the WordPress platform. It is official of Revolution Models from Milano Italia, focussed on model showcase, quick booking model and become a model.
+
+Showcase gallery, PDF generator by drag and drop the image, Contact form with attachment files are this website's features.
