@@ -2,8 +2,8 @@
 title: "XXIV STORE a WooCommerce Website"
 date: 2020-04-10T02:53:16+07:00
 draft: false
-featured_image: "pvcombank-landing-page-thumb.jpg"
-project_image: [ "pvcombank-landing-page-full.jpeg" ]
+featured_image: "xxiv-thumb.jpg"
+project_image: [ "xxiv-home.jpg", "xxiv-cart.png", "xxiv-filter.png", "xxiv-ajax-search.png", "xxiv-blog-search.png", "xxiv-blog-share.png" ]
 tags: [ "WooCommerce", "WordPress", "WordPress website" ]
 description: "As a state-owned bank, PVcomBank is taking a breakthrough step. to bring more convenience to customers."
 ---

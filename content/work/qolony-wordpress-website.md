@@ -2,8 +2,8 @@
 title: "Qolony WordPress multiple language"
 date: 2019-08-20T02:08:05+07:00
 draft: false
-featured_image: "bebo-landing-thumb.jpg"
-project_image: [ "bebo-landing-full.jpeg" ]
+featured_image: "qolony-thumb.jpg"
+project_image: [ "qolony-home-1.jpg", "qolony-home-2.jpg", "qolony-home-3.jpg" ]
 tags: [ "WordPress", "MemberPress", "WPML", "Sage 9"]
 description: "BEBO for you – book author/publisher, artist, disk owner/publisher… to improve your income, to spread your products and reputation all over the world before and after it’s realeased."
 ---

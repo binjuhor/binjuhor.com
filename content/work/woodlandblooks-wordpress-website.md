@@ -2,8 +2,8 @@
 title: "Woodland Blocks WordPress website"
 date: 2019-07-10T02:53:16+07:00
 draft: false
-featured_image: "pvcombank-landing-page-thumb.jpg"
-project_image: [ "pvcombank-landing-page-full.jpeg" ]
+featured_image: "woodland-thumb.jpg"
+project_image: [ "woodland-1.jpg", "woodland-2.png" ]
 tags: [ "WordPress", "React", "WordPress plugin" ]
 description: "As a state-owned bank, PVcomBank is taking a breakthrough step. to bring more convenience to customers."
 ---
