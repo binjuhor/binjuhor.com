@@ -1,7 +1,7 @@
 {
 	"title" : "Skills",
 	"skills" : {
-		"PHP" : "86",
+		"PHP" : "80",
 		"WordPress" : "85",
 		"Laravel" : "80",
 		"Git" : "85",
@@ -9,9 +9,9 @@
 		"VueJs" : "50",
 		"React JS" : "60",
 		"React Native" : "40",
-		"jQuery" : "80",
+		"jQuery" : "85",
 		"Photoshop/ Sketch App" : "75",
 		"Linux" : "55",
-		"Leadership" : "40"
+		"Leadership" : "50"
 	}
 }
