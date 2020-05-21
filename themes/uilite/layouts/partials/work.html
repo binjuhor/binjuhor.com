@@ -1,12 +1,12 @@
-<section class="aqua">
+<section class="aqua work">
     <h2 class="heading">Work</h2>
 
-    <div class="row">
+    <div class="row flex">
 
         {{ .Content }}
         
-        <div class="col-md-4 mb-3">
-            <div class="card p-4">
+        <div class="col-md-4 mb-4 flex work__item">
+            <div class="card p-4 mb-2">
                 <a class="mb-3" href="{{.Site.BaseURL}}work/pvcombank-official-website/">
                     <div 
                         class="featuredImage rounded" 
@@ -31,8 +31,8 @@
             </div>
         </div>
 
-        <div class="col-md-4 mb-3">
-            <div class="card p-4">
+        <div class="col-md-4 mb-4 flex work__item">
+            <div class="card p-4 mb-2">
                 <a class="mb-3" href="{{.Site.BaseURL}}work/vnpayment-vietnam-website/">
                     <div 
                         class="featuredImage rounded" 
@@ -57,8 +57,8 @@
             </div>
         </div>
 
-        <div class="col-md-4 mb-3">
-            <div class="card p-4">
+        <div class="col-md-4 mb-4 flex work__item">
+            <div class="card p-4 mb-2">
                 <a class="mb-3" href="{{.Site.BaseURL}}work/kitchen-art-professional-cooking-website/">
                     <div 
                         class="featuredImage rounded" 
@@ -85,7 +85,7 @@
 
     </div>
 
-    <div class="text-center mt-5">
+    <div class="text-center mt-3">
         <a href="{{.Site.BaseURL}}work" class="btn btn-lg btn-dark-faded ">Browse All</a>
     </div>
 </section>

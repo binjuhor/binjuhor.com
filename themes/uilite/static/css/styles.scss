@@ -506,3 +506,15 @@ $bar-spacing: 8px;
     white-space: nowrap;
   }
 }
+
+.flex {
+  display: flex
+}
+
+.work {
+  &__item {
+    .card {
+      width: 100%;
+    }
+  }
+}

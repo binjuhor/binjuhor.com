@@ -4,7 +4,7 @@
 		{
 			"icon" : "code",
 			"title" : "Web Development",
-			"description" : "With 9 years of experience and over 7200 customers relying on products sold on the Envato market, I believe that it will bring you the best products."
+			"description" : "With 8 years of experience and over 7200 customers relying on products sold on the Envato market, I believe that it will bring you the best products."
 		},
 		{
 			"icon": "paint-brush",
@@ -14,12 +14,12 @@
 		{
 			"icon" : "pen-nib",
 			"title" : "Graphics Design",
-			"description" : "With available resources, and tested by more than 7200 customers, we are ready to provide the most unique designs."
+			"description" : "With available resources, and tested by more than 7200 customers, we are ready to provide the most unique designs for your products."
 		},
 		{
 			"icon": "barcode",
 			"title": "Mobile Development",
-			"description": "With the experience of selling products on the Envato market, my team offers mobile app services."
+			"description": "If you want to develop a mobile application, we can do it with React Native too, so your app will be developed both on IOS and Android. "
 		}
 	]
 }
