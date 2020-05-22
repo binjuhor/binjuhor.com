@@ -11,3 +11,5 @@ description: "Developed based on the WordPress platform. It is one of Photomart 
 Developed based on the WordPress platform. It is one of Photomart website, focussed on download the frame image, quick upload image and orders the picture frame.
 
 Quick upload image with React app & integrated with WooCommerce detail product, Contact form & download PDF files are this website's features.
+
+My position is, initialize theme with Sage 9 starter theme, the upload plugin development.

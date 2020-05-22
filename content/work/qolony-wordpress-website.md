@@ -11,3 +11,5 @@ description: "This website is developed based on the WordPress platform. It is t
 This website is developed based on the WordPress platform. It is the official of Qolony Co., Ltd, provide companies issue solving service, the website focus on the premium blog & payment membership.
 
 Premium blog, paid membership, social login, multiple languages are website main functions. 
+
+My position is a front-end developer, work with Sage 9 starter theme, and Member Press, WPML plugin.

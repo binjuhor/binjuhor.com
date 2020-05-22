@@ -11,3 +11,5 @@ HTML5, CSS, Mega Menu, Optimize HTML and CSS are key feature for this project."
 
 This project is an affiliate blog focus on advertising, focus on display ads on mobile-first. We developed the HTML for this website.
 HTML5, CSS, Mega Menu, Optimize HTML and CSS are key feature for this project.
+
+My position as an HTML, CSS developer, supporter.
