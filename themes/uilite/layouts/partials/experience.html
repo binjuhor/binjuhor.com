@@ -17,7 +17,7 @@
         </a>
         {{ end }}
         <h6 class="h3 my-2">{{ $element.company }}</h6>
-        <p class="bs">{{ $element.description }}</p>
+        <p class="bs">{{ (replace $element.description "\n" "<br/>") | safeHTML }}</p>
       </div>
     </div>
     {{ end }}
