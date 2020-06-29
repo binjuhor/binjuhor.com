@@ -10,6 +10,6 @@ description: "You must be uncomfortable cause you have to depend on other bookst
 
 If you are reading these texts, you must be interested in our BEBO. Thank you for that and now let us shortly introduce you the main adorable features you will love.
 
-You must be uncomfortable cause you have to depend on other bookstore (Amazon, Better World Books, BookMooch…) to sell your brainchild. Why don’t you think about your own store to promote your business directly and more effective. Look down, you will know exactly what you need if you are thinking about your store. 
+You must be uncomfortable cause you have to depend on another bookstore (Amazon, Better World Books, BookMooch…) to sell your brainchild. Why don’t you think about your own store to promote your business directly and more effective? Look down, you will know exactly what you need if you are thinking about your store.
 
-This one is my third product on Envato's market
+This one is my third product on Envato’s market
