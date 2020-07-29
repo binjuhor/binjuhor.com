@@ -1,5 +1,5 @@
-## Binjuhor Profile
-Base in hugo https://gohugo.io 
+## Binjuhor Profile https://binjuhor.now.sh
+Base on Hugo https://gohugo.io
 
 ### Documentation
 
