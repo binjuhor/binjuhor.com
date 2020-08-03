@@ -13,3 +13,5 @@ This project is an affiliate blog focus on advertising, focus on display ads on 
 HTML5, CSS, Mega Menu, Optimize HTML and CSS are key feature for this project.
 
 My position as an HTML, CSS developer, supporter.
+
+[https://www.vtcmag.com](https://www.vtcmag.com)
