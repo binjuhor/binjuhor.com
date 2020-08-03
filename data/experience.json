@@ -2,22 +2,9 @@
 	"title" : "Experience",
 	"experience" : [
 		{
-			"timeperiod" : "Jul 2011 - Apr 2012",
-			"company" : "Dai Viet Developing Media .,JSC",
-			"description" : "Develop the company's product, work with Joomla 1.5.x, WordPress, I become a web developer from there.",
-			"position": "Junior developer"
-		},
-		{
-			"timeperiod" : "Oct 2012 - Jun 2014",
-			"company" : "Than tai viet trade co.,LTD",
-			"description" : "Research coding & making a B2B social network, optimize keywords to top google.",
-			"position": "Web developer"
-		},
-		{
-			"timeperiod" : "Jun 2014 - Aug 2018",
-			"company" : "Beau Vietnam .,JSC",
-			"description" : "Working as a web developer, research, training and development the company's core base on WordPress, Laravel, server manager, environment preparing for website product. \n In this company, I also work with Beautheme, who create beautiful WordPress themes and sold it on Themeforest.",
-			"position": "Full-stack web developer"
+			"timeperiod" : "Dec 2019 - Present",
+			"company" : "Full time Freelancer",
+			"description" : "Working as a full-stack developer sure, working with ReactJs, Laravel, WordPress, HTML, CSS, JS. I'm also looking for a working remote team to join.\n My cost: $15 /hr"
 		},
 		{
 			"timeperiod" : "Aug 2018 - Dec 2019",
@@ -26,9 +13,22 @@
 			"position": "Full-stack web developer"
 		},
 		{
-			"timeperiod" : "Dec 2019 - Present",
-			"company" : "Full time Freelancer",
-			"description" : "Working as a full-stack developer sure, working with ReactJs, Laravel, WordPress, HTML, CSS, JS. I'm also looking for a working remote team to join.\n My cost: $15 /hr"
+			"timeperiod" : "Jun 2014 - Aug 2018",
+			"company" : "Beau Vietnam .,JSC",
+			"description" : "Working as a web developer, research, training and development the company's core base on WordPress, Laravel, server manager, environment preparing for website product. \n In this company, I also work with Beautheme, who create beautiful WordPress themes and sold it on Themeforest.",
+			"position": "Full-stack web developer"
+		},
+		{
+			"timeperiod" : "Oct 2012 - Jun 2014",
+			"company" : "Than tai viet trade co.,LTD",
+			"description" : "Research coding & making a B2B social network, optimize keywords to top google.",
+			"position": "Web developer"
+		},
+		{
+			"timeperiod" : "Jul 2011 - Apr 2012",
+			"company" : "Dai Viet Developing Media .,JSC",
+			"description" : "Develop the company's product, work with Joomla 1.5.x, WordPress, I become a web developer from there.",
+			"position": "Junior developer"
 		}
 	]
 }
