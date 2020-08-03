@@ -13,3 +13,5 @@ FilmMaker is extremely suitable for any creative agency/ corporate/ team/ person
 Wonderful Visual Composer plugin will help you to build a site without coding knowledge. Mailchimp plugin makes a smart email system for you to manage. Besides, Film Maker is totally compatible with the WPML plugin perfectly, so you can have a multi-language site when using this plugin. This is easier to spread your site all over the world. And so much more great features in this theme.
 
 **Filmmaker** is the best Beautheme’s sale, my position on this project is training, support, and coding.
+
+https://filmmaker.beautheme.com

@@ -11,3 +11,5 @@ description: "This website based on WordPress multiple sites focused on the unif
 This website based on WordPress multiple sites focused on the uniform store for schools, sports team.
 
 Work with smart AJAX filter by a category, and size of T-Shirt, discount if buy multiple products, quick shopping and easy setup new store in Hardgear network.
+
+https://www.hardgear.co.uk

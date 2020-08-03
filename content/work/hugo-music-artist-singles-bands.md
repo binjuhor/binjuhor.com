@@ -20,3 +20,5 @@ description: "Hugo is the surprising creative Music & Band theme, With so clean 
 Hugo is the surprising creative Music & Band theme, With so clean and modern design style, you will never regret purchasing it for your own website about artic company, singers, music bands, composer, bloggers, vloggers…
 
 It’s the first theme I created and approved on Envato’s market
+
+https://hugo.beautheme.com

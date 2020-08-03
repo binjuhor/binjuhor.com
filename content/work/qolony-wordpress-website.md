@@ -13,3 +13,5 @@ This website is developed based on the WordPress platform. It is the official of
 Premium blog, paid membership, social login, multiple languages are website main functions. 
 
 My position is a front-end developer, work with Sage 9 starter theme, and Member Press, WPML plugin.
+
+https://qolony.co.jp
