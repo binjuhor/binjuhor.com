@@ -12,4 +12,4 @@ Developed based on the WordPress platform and WooCommerce plugin. XXIV Store is 
 
 WooCommerce, Quick buy, Quick checkout are XXIV's feature.
 
-[http://xxivfragrance.com](http://xxivfragrance.com)
+[http://xxivstore.com](http://xxivstore.com)
