@@ -12,4 +12,6 @@ This website based on WordPress multiple sites focused on the uniform store for 
 
 Work with smart AJAX filter by a category, and size of T-Shirt, discount if buy multiple products, quick shopping and easy setup new store in Hardgear network.
 
-https://www.hardgear.co.uk
+[https://www.hardgear.co.uk](https://www.hardgear.co.uk)
+
+[https://www.hardgear.co.uk/sportlancaster](https://www.hardgear.co.uk/sportlancaster)
