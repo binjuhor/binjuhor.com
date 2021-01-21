@@ -1,6 +1,6 @@
 ---
-title: "All Brands Co taking care of business - Shopify website"
-date: 2015-10-20T02:08:05+07:00
+title: "xDevLabs.com - Website for xDevLabs team"
+date: 2021-02-28T02:08:05+07:00
 draft: false
 featured_image: "bebo-landing-thumb.jpg"
 project_image: [ "bebo-landing-full.jpeg" ]
@@ -12,4 +12,4 @@ Have you ever heard about John Reese with his marketing campaign and got more th
 
 And this one is the second one product on Themeforest
 
-[https://allbrandsco.com] (https://allbrandsco.com)
+[https://xdevlabs.com] (https://xDevLabs.com)

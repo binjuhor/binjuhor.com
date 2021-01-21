@@ -1,5 +1,5 @@
 ---
-title: "All Brands Co taking care of business - Shopify website"
+title: "Tapchifx - Finance magazine"
 date: 2015-10-20T02:08:05+07:00
 draft: false
 featured_image: "bebo-landing-thumb.jpg"
@@ -12,4 +12,4 @@ Have you ever heard about John Reese with his marketing campaign and got more th
 
 And this one is the second one product on Themeforest
 
-[https://allbrandsco.com] (https://allbrandsco.com)
+[https://tapchifx.com] (https://tapchifx.com)

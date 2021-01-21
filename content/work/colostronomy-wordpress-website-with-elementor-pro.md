@@ -1,5 +1,5 @@
 ---
-title: "ColostroNONI Guna"
+title: "Colostronomy - WordPress website"
 date: 2020-30-12T02:53:16+07:00
 draft: false
 featured_image: "xxiv-thumb.jpg"

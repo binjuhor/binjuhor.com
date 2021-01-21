@@ -1,6 +1,6 @@
 ---
-title: "Citysoul Night Club Party Bars Lounge"
-date: 2016-10-24T02:20:59+07:00
+title: "Bespoke Training Solutions"
+date: 2020-11-24T02:20:59+07:00
 draft: false
 featured_image: "citysoul-thumb.jpg"
 project_image: [ "citysoul-full.jpeg" ]
@@ -12,4 +12,4 @@ CitySoul WordPress Theme is an entertainment theme as well as a nightlife theme.
 
 I worked with my team and my position is HTML/CSS converter.
 
-[http://staging.kariba.co.uk/bts/](http://staging.kariba.co.uk/bts/)
+[https://www.bespoketrainingsolutions.com](https://www.bespoketrainingsolutions.com)
