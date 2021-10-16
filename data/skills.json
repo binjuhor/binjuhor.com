@@ -1,16 +1,16 @@
 {
 	"title" : "Skills",
 	"skills" : {
-		"PHP" : "80",
-		"WordPress" : "85",
-		"Laravel" : "80",
-		"Git" : "85",
-		"HTML/ CSS/ JS" : "90",
-		"VueJs" : "30",
+		"PHP" : "50",
+		"WordPress" : "55",
+		"Laravel" : "40",
+		"Git" : "45",
+		"HTML/ CSS/ JS" : "60",
+		"VueJs" : "20",
 		"React JS" : "30",
-		"jQuery" : "85",
-		"Photoshop/ Sketch App" : "75",
-		"Linux" : "55",
-		"Leadership" : "50"
+		"jQuery" : "43",
+		"Photoshop/ Sketch App" : "45",
+		"Linux" : "35",
+		"Leadership" : "30"
 	}
 }
