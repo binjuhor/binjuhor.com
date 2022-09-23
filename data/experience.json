@@ -2,6 +2,16 @@
 	"title" : "Experience",
 	"experience" : [
 		{
+			"timeperiod" : "Jun 2022 - Present",
+			"company" : "WinIntelligence",
+			"description" : "Working as a PHP, Wordpress Developer. Work with WordPress & Laravel project, I also work with some tasks in PHP, VueJs."
+		},
+		{
+			"timeperiod" : "Aug 2022 - Present",
+			"company" : "STEAM for Vietnam",
+			"description" : "Volunteer for STEAM for Vietnam, Software Engineer position."
+		},
+		{
 			"timeperiod" : "Dec 2019 - Present",
 			"company" : "Full time Freelancer",
 			"description" : "Working as a full-stack developer sure, working with ReactJs, Laravel, WordPress, HTML, CSS, JS.\n My cost: $20 /hr"
