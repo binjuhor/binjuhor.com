@@ -7,7 +7,7 @@
         {{ $config.message }}
       </div>
 
-      <form action="https://formspree.io/f/binjuhor@gmail.com" method="POST">
+      <form id="binjuhor-contact" action="https://formspree.io/f/xpzgqgge" method="POST">
         <div class="form-row">
           <div class="col-md-6  mb-4 ">
             <input type="text" class="form-control" name="name" placeholder="Name">
@@ -16,11 +16,14 @@
             <input type="email" class="form-control" name="_replyto" placeholder="Email">
           </div>
         </div>
+          <div class="form-row">
+              <p id="binjuhor-form-status"></p>
+          </div>
     
         <div class="form-group">
           <textarea placeholder="Message" name="message" class="form-control" rows="4"></textarea>
         </div>
-        <button type="submit" class="btn btn-dark">Submit</button>
+        <button type="submit" id="binjuhor-form-button" class="btn btn-dark">Submit</button>
       </form>
   </div>
 </section>
