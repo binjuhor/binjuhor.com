@@ -10,16 +10,14 @@
       <form id="binjuhor-contact" action="https://formspree.io/f/xpzgqgge" method="POST">
         <div class="form-row">
           <div class="col-md-6  mb-4 ">
-            <input type="text" class="form-control" name="name" placeholder="Name">
+            <input type="text" class="form-control" name="name" required placeholder="Name">
           </div>
           <div class="col-md-6  mb-4 ">
-            <input type="email" class="form-control" name="email" placeholder="Email">
+            <input type="email" class="form-control" name="email" required placeholder="Email">
           </div>
         </div>
-
-    
         <div class="form-group">
-          <textarea placeholder="Message" name="message" class="form-control" rows="4"></textarea>
+          <textarea placeholder="Message" name="message" required class="form-control" rows="4"></textarea>
         </div>
         <button type="submit" id="binjuhor-form-button" class="btn btn-dark">Submit</button>
       </form>
