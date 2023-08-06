@@ -4,7 +4,7 @@
       <h2 class="heading mb-3">Contact</h2>
 
       <div class="text-success my-3">
-        {{ $config.message }}
+        <p id="binjuhor-form-status">{{ $config.message }}</p>
       </div>
 
       <form id="binjuhor-contact" action="https://formspree.io/f/xpzgqgge" method="POST">
@@ -16,9 +16,7 @@
             <input type="email" class="form-control" name="_replyto" placeholder="Email">
           </div>
         </div>
-          <div class="form-row">
-              <p id="binjuhor-form-status"></p>
-          </div>
+
     
         <div class="form-group">
           <textarea placeholder="Message" name="message" class="form-control" rows="4"></textarea>
