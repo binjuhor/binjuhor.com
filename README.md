@@ -20,5 +20,3 @@ Link: https://themes.gohugo.io/hugo-uilite/
 ### Contact
 
 You can contact me at hi@binjuhor.com
-
-Phone: +1 (220) 205-9099
