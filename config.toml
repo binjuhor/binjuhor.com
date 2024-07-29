@@ -2,6 +2,7 @@ baseURL = "https://binjuhor.com/"
 languageCode = "en-us"
 title = "Kiem Hoang Personal Portfolio"
 theme = "uilite"
+recaptchaKey = "6Lf-VeAcAAAAAJm9iw3J8SigdmQqz2TLtH340wkt"
    
 [[menu.primary]]
     name = "Kiem Hoang" 

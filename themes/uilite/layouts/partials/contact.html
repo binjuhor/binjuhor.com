@@ -19,7 +19,14 @@
         <div class="form-group">
           <textarea placeholder="Message" name="message" required class="form-control" rows="4"></textarea>
         </div>
-        <button type="submit" id="binjuhor-form-button" class="btn btn-dark">Submit</button>
+        <button
+            type="submit"
+            id="binjuhor-form-button"
+            class="btn btn-dark g-recaptcha"
+            data-sitekey="{{ $config.recaptchaKey }}"
+            data-callback="onSubmit"
+            data-action="submit"
+        >Submit</button>
       </form>
   </div>
 </section>
