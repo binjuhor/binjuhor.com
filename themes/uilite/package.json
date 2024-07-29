@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "sass": "^1.77.8"
+  },
+  "scripts": {
+    "build": "sass --no-source-map --style=compressed --update resources/scss/styles.scss:static/css/styles.css",
+    "watch": "sass --watch resources/scss/styles.scss:static/css/styles.css"
+  }
+}
