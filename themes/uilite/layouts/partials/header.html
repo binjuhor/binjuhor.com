@@ -36,7 +36,17 @@
 	<script src="https://www.google.com/recaptcha/api.js"></script>
 	<script>
 		function onSubmit() {
-			document.getElementById("binjuhor-contact").submit()
+			const form = document.getElementById("binjuhor-contact");
+			const name = form.elements["name"].value;
+			const email = form.elements["email"].value;
+			const message = form.elements["message"].value;
+
+			if (!name || !email || !message) {
+				alert("Please fill in all fields");
+				return;
+			}
+
+			form.submit()
 		}
 	</script>
     <!-- Google tag (gtag.js) -->
