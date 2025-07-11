@@ -4,39 +4,48 @@
 		{
 			"timeperiod" : "July 2022 - Present",
 			"company" : "STEAM for Vietnam",
-			"description" : "Part time Volunteer for STEAM for Vietnam, Software Engineer position."
+			"description" : "Part time Volunteer for STEAM for Vietnam, Software Engineer position.",
+			"position": "Software Engineer"
 		},
 		{
-			"timeperiod" : "Mar 2022 - Present",
-			"company" : "WinIntelligence Group",
-			"description" : "Working as a PHP, Wordpress Developer. Work with WordPress & Laravel project, I also work with some tasks in PHP, VueJs."
-		},
-		{
-			"timeperiod" : "Dec 2019 - Present",
+			"timeperiod" : "Mar 2025 - Present",
 			"company" : "Fulltime Freelancer",
-			"description" : "Working as a full-stack developer sure, working with ReactJs, VueJs, Laravel, WordPress, Shopify, HTML, CSS, JS."
+			"description" : "Working as a full-stack developer sure, working with ReactJs, VueJs, Laravel, WordPress, Shopify, HTML, CSS, JS.",
+			"position": "Fullstack Developer"
+		},
+		{
+			"timeperiod" : "Mar 2022 - Mar 2025",
+			"company" : "WinIntelligence Group",
+			"description" : "Working as a PHP, Wordpress Developer. Work with WordPress & Laravel project, I also work with some tasks in PHP, VueJs.",
+			"position": "Fullstack Developer"
+		},
+		{
+			"timeperiod" : "Dec 2019 - Apr 2022",
+			"company" : "XDevLabs",
+			"description" : "Founded a freelance web team, working with VueJs, ReactJs, Laravel, and WordPress.",
+			"position": "Full-stack developer"
 		},
 		{
 			"timeperiod" : "Aug 2018 - Dec 2019",
-			"company" : "Viet Artisans .,JSC",
+			"company" : "Viet Artisans,JSC",
 			"description" : "Working as a web developer, working with VueJs, Laravel, and WordPress.",
-			"position": "Full-stack web developer"
+			"position": "Full-stack developer"
 		},
 		{
 			"timeperiod" : "Jun 2014 - Aug 2018",
-			"company" : "Beau Vietnam .,JSC",
+			"company" : "Beau Vietnam, JSC",
 			"description" : "Working as a web developer, research, training and development the company's core base on WordPress, Laravel, server manager, environment preparing for website product. \n In this company, I also work with Beautheme, who create beautiful WordPress themes and sold it on Themeforest.",
-			"position": "Full-stack web developer"
+			"position": "Full-stack developer"
 		},
 		{
 			"timeperiod" : "Oct 2012 - Jun 2014",
-			"company" : "Than tai viet trade co.,LTD",
+			"company" : "Than tai viet trade co, LTD",
 			"description" : "Research coding & making a B2B social network, optimize keywords to top google.",
 			"position": "Web developer"
 		},
 		{
 			"timeperiod" : "Jul 2011 - Apr 2012",
-			"company" : "Dai Viet Developing Media .,JSC",
+			"company" : "Dai Viet Developing Media, JSC",
 			"description" : "Develop the company's product, work with Joomla 1.5.x, WordPress, I become a web developer from there.",
 			"position": "Junior developer"
 		}
